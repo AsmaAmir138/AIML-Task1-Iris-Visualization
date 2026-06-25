@@ -1,8 +1,30 @@
-# Task 1: Exploring and Visualizing a Simple Dataset
+# TASK 1 REPORT: DATA EXPLORATION AND VISUALIZATION
 
-* **Project Name:** Iris Data Exploration & Visualization
-* **Objective:** Load, clean, and analyze the biological features of the Iris dataset using statistical metrics and charts to understand feature distributions.
-* **Libraries Used:** `pandas`, `numpy`, `matplotlib`, `seaborn`
-* **Model Used:** None (Exploratory Data Analysis / Data Visualization Task)
-* **Key Results & Insights:** * Successfully identified that the `setosa` species is distinctly linearly separable from `versicolor` and `virginica` using sepal dimensions.
-  * Discovered minor outliers in `sepal_width` using Box Plots, while other features followed a stable distribution.
+---
+
+### 1. PROJECT NAME
+* Exploratory Data Analysis (EDA) on the Iris Dataset.
+
+
+### 2. CORE OBJECTIVE
+* To load and inspect a multi-class biological dataset.
+* To clean and analyze structural features using statistical metrics.
+* To create visual distribution plots for outlier and pattern detection.
+
+
+### 3. TECH STACK & LIBRARIES USED
+* **Python Language** (Core implementation)
+* **Pandas** (For dataset manipulation and structure summary)
+* **Numpy** (For numerical calculations)
+* **Matplotlib** (For plotting structural boundaries)
+* **Seaborn** (For advanced data visualization and built-in data loading)
+
+
+### 4. MACHINE LEARNING MODEL USED
+* **None:** This is an exploratory and data visualization task, so no predictive modeling or training algorithms were required.
+
+
+### 5. KEY RESULTS & INSIGHTS
+* **Linear Separability:** Scatter plots clearly revealed that the `setosa` species forms a distinct, isolated cluster and is completely separable from `versicolor` and `virginica`.
+* **Outlier Detection:** Box plots identified minor, negligible outliers only within the `sepal_width` feature, while all other dimensions showed clean data boundaries.
+* **Feature Distributions:** Histograms showed that sepal measurements follow a stable, normal distribution shape, whereas petal measurements exhibit a distinct bi-modal distribution layout.
